@@ -1,0 +1,408 @@
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	background-color: white;
+}
+
+/* Welcome section */
+
+#flex-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#image-dec {
+    margin-top: 70px;
+    height: 300px;
+}
+#welcome-written {
+    height: 70vh;
+    background-color: white;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+}
+
+#welcome-title {
+    font-family:cursive;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    font-size:  50px;
+    font-weight: bold;
+    color: rgb(192, 43, 43);
+}
+
+#button {
+    color: rgb(250, 250, 250);
+    background-color: rgb(192, 43, 43);
+    width: fit-content;
+    transform-style: inherit;
+}
+
+#welcome-para {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/* Featured products section */
+
+#F-title {
+    font-family: Lucida Sans;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#image-grid1 {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+#image-grid2 {
+    display: flex;
+    margin: 5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.image-size {
+    background-color: rgb(238, 232, 232);
+    height: 200px;
+}
+
+.link {
+    display: block;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Navigation Bar */
+
+#logo {
+    margin-top: 10px;
+    padding: 3%;
+    padding-left: 15%;
+    padding-right: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(192, 43, 43);
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position:static;
+}
+
+#icon-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    color: rgb(28, 119, 146);
+    text-align: center;
+    margin-top: 10px;
+}
+.icon-link {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+.search {
+    width: 40%;
+    position: relative;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 7%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC; }
+
+/* New Arrivals */
+
+    #new{
+        margin: 0px;
+        padding: 0px;
+        font-family: Lucida Sans;
+        font-weight: bolder;
+        font-size: larger;
+        font-size: 25px;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center ;
+    }
+
+    #projects-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .image{
+        margin: 5px;
+    }
+    
+    .project-image {
+        margin-bottom: 0px;
+        background-color: rgb(238, 232, 232);;
+        justify-content: center;
+        width: 75%;
+        height: 60%;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .project-link {
+        display: block;
+        justify-content: right;
+        text-decoration: none;
+        color: black;
+        width: 40%;
+        height: 30px;
+        line-height: 40px;
+        font-size: 17px;
+    }
+ 
+    /* Watch Banner*/
+
+    #watch{
+        padding-top: 20px;
+         width: 250vh;
+         height: 350px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         background-image: linear-gradient(to right,white,rgb(168, 8, 8));
+     }
+
+     #smart-band{
+        font-family: geneva;
+        font-weight: bolder;
+        letter-spacing: 0px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+     
+     .right-align1 {
+         text-align: right;
+         padding-top: 5vh;
+         padding-bottom: 15vh;
+         padding: 0px 30px;
+     }
+     
+     .left-align1 {
+         text-align: left;
+         font-size: 20px;
+         padding: 0px 30px;
+         padding-top: 5vh;
+         padding-bottom: 15vh;
+     }
+     
+     #Button{
+         display: flex;
+         flex-direction: row;
+         color: white;
+         height: 40px;
+         width: fit-content;
+         text-decoration: none;
+         background-color: brown;
+     }
+
+     /* Review Section */
+
+     .flex-rev {
+         display: flex;
+         flex-direction: column;
+         height: 100vh;
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+     }
+
+     .rev-section {
+         margin:5%;
+         text-align: center;
+         padding: 0 1rem;
+         max-width: 1100px;
+     }
+
+     .rev-title {
+         font-size: 1.5rem;
+         text-transform: uppercase;
+         color: rgb(50, 50, 50);
+         margin-bottom: .5rem;
+     }
+
+     .note {
+         font-size: 1.1rem;
+         color:rgb(28, 119, 146);
+         font-style: italic;
+     }
+
+     .reviews {
+         margin: 2rem auto;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+
+     .review {
+         margin: 0 1rem;
+         min-width: 300px;
+         flex: 1;
+     }
+
+         .headreview {
+             margin: 1.75rem;
+             width:150px;
+             height:150px;
+         }
+
+         .himg {
+             width: 100px;
+             height: 100px;
+             object-fit: cover;
+             border-radius: 50%;
+             box-shadow: 0 10px 25px rgba(0,0,0,.25);
+         }
+
+         .body-review {
+             background-color: aliceblue;
+             padding: 2.5rem;
+             box-shadow: 2px 2px 10px 3px rgb(225,255,255);
+         }
+
+         .name-review {
+             font-size: 1.5rem;
+             color: rgb(50,50,50);
+             margin-bottom: .25rem;
+         }
+
+         .place-review {
+             color: red;
+             font-style: italic;
+         }
+
+         .rating {
+             color: rgb(253,180,42);
+             margin: 1rem 0;
+         }
+
+         .desc-rev {
+             line-height: 1.5rem;
+             letter-spacing: 1px;
+             color: rgb(150,150,150);
+         }
+
+    /* Last part */
+
+    #last-section {
+        margin-top: 20%;
+        text-align: center;
+        font-weight: bold;
+        padding: 25px;
+        margin-block-end: 0;
+    }
+    
+    #footer-line {
+        
+        margin-block-start: 0;
+    }
+    
+    #projects-grid {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project-box {
+        margin: 10px;
+    }
+    
+    .project-image1 {
+        width: 150px;
+        height: 100px;
+    }
+    
+    table {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    td {
+        padding: 10px 25px;
+        font-size: 10px;
+        padding-bottom: 0%;
+    }
+    
+    .right-align {
+        text-align: left;
+    }
+    
+    .left-align {
+        text-align: left;
+    }
+    
+    .footer-link {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    #profile-links-section {
+        text-align: center;
+        display: flex;
+        justify-content: left;
+    }
+    
+    .profile-link {
+        display: block;
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+    
+    i {
+        color: black ;
+    }
